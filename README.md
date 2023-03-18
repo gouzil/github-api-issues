@@ -24,3 +24,4 @@
 ### 文件存放 
  * backup 目录下将会存放本次运行的备份
  * today_updated_{日期}.md 文件会存放今天更新的内容
+ * yesterday_updated_{日期}.md 文件存放昨天更新的内容
