@@ -20,6 +20,7 @@
 🌰: https://api.github.com/repos/gouzil/github-api-issues/issues/1/comments
 
  * Task_Publisher: 排除用户
+ * (可选) Start_time: 起始时间填写后将不再生成`yesterday_updated_{日期}.md`和`today_updated_{日期}.md`, 而是生成`specify_date_{日期}.md`
 
 ### 文件存放 
  * backup 目录下将会存放本次运行的备份
