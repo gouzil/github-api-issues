@@ -26,7 +26,9 @@ def generate_markdowm(Special, issues_json, Task_Publisher, token):
         temp_task_text = insert_markdowm(team_name=team_name, order_number=order_number, status=status,
                                          link_url=link_url, token=token, all_text=task_text)
         # 个别序号会解析错误
-        if temp_task_text == None:
+        if temp_task_text == "repeat":
+            continue
+        elif temp_task_text == None:
             error_issues_text += issues_['body'] + '\n' + '[最后更新时间]' + issues_[
                 'updated_at'] + '\n' + '-' * 20 + '\n'
             continue

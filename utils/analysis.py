@@ -115,7 +115,7 @@ def insert_markdowm(team_name, order_number, status, link_url, token, all_text):
     # 重复校验
     duplicate_verification = f'{team_name}({status}'
     if duplicate_verification in task_data[3]:
-        return None
+        return "repeat"
 
     # 去除尾部空格
     task_data[3] = task_data[3].rstrip()

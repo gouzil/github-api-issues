@@ -39,10 +39,16 @@ def get_pull_status(url, token):
     if "Paddle" not in url and "paddle" not in url and "#" not in url:
         return False
 
+    # 排除提案仓库的内容
+    if "community" in url:
+        return False
+
     if "#" in url:
+        # 判断直接 # 号引用的
         owner_repo = "paddlepaddle/paddle"
         pull_number = url.replace("#", "")
     else:
+        # 解析各个仓库的pr
         owner_repo = re.findall(r"https://github.com/(.*?)/pull/", url, re.DOTALL)[0]
         pull_number = re.findall(r"/pull/(.*?)$", url, re.DOTALL)[0]
 
