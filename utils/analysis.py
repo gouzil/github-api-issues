@@ -108,8 +108,13 @@ def insert_markdowm(team_name, order_number, status, link_url, token, all_text):
         # 第一个为序号的空行, 第二个为任务题目, 第三个为认领队伍, 第四个为完成队伍, 第五不管
         task_data = re.split(r"\|", task_line)
     except Exception as e:
-        print("analysis task error:"+ order_number)
+        print("analysis task error:" + order_number)
         print(e)
+        return None
+
+    # 重复校验
+    duplicate_verification = f'{team_name}({status}'
+    if duplicate_verification in task_data[3]:
         return None
 
     # 去除尾部空格
@@ -123,6 +128,9 @@ def insert_markdowm(team_name, order_number, status, link_url, token, all_text):
     # 查询 pull 状态
     if get_pull_status(link_url, token):
         task_data[4] = " " + team_name + "\t"
+
+    # 去除一些换行符
+    link_url = link_url.replace("\r", "").replace("\t", "")
 
     # 解析url最后一节名字
     link_title = link_url.split('/')[-1]
