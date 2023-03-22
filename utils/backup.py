@@ -2,7 +2,12 @@
 import datetime
 import os
 
+from utils.file_utils import save_file
+from utils.get_data import get_task
 
+
+# todo 加个选项是否备份，复用(或者改写)
+# 备份文件
 def backup_announcement(issues_json, Task_Publisher):
     today_file = str(datetime.date.today()) + '.md'
     if os.path.exists('./backup/' + today_file):
@@ -11,12 +16,6 @@ def backup_announcement(issues_json, Task_Publisher):
     if not os.path.exists('./backup/'):
         os.makedirs('./backup')
 
-    f = open('./backup/' + today_file, 'w')
-    backup_text = ''
-    for i in issues_json:
-        if i['user']['login'] in Task_Publisher:
-            backup_text += i['body']
+    backup_text = get_task(issues_json, Task_Publisher)
 
-    # 写入文件
-    f.write(backup_text)
-    f.close()
+    save_file('./backup/' + today_file, backup_text)
