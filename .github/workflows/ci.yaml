@@ -37,6 +37,7 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         branch: paddlepaddle-issue-test
-        with: generate
+        with:
+          folder: ./generate
         token:  ${{ secrets.GH_TOKEN }}
         commit-message: update-time-${{ steps.date.outputs.now }}
