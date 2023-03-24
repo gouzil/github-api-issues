@@ -112,6 +112,10 @@ def insert_markdowm(team_name, order_number, status, link_url, token, all_text):
         print(e)
         return None
 
+    # 防止解析失败
+    if len(task_data) != 4:
+        return None
+
     # 重复校验
     duplicate_verification = f'{team_name}({status}'
     if duplicate_verification in task_data[3]:
