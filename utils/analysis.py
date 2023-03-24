@@ -112,44 +112,44 @@ def insert_markdowm(team_name, order_number, status, link_url, token, all_text):
         print(e)
         return None
 
-    # 防止解析失败
-    if len(task_data) != 4:
+    try:
+        # 重复校验
+        duplicate_verification = f'{team_name}({status}'
+        if duplicate_verification in task_data[3]:
+            return "repeat"
+
+        # 去除尾部空格
+        task_data[3] = task_data[3].rstrip()
+        # 要插入的队伍
+        temp_text = ""
+        # 判断是否为空行
+        if '(' in task_data[3]:
+            temp_text += '</br>'
+
+        if team_name not in task_data[4]:
+            # 查询 pull 状态
+            if get_pull_status(link_url, token):
+                task_data[4] = task_data[4].replace("\r", "").replace("\t", "").replace(" ", "")
+                # 处理多队伍完成任务
+                if len(task_data[4]) != 0:
+                    task_data[4] += "&"+team_name
+                else:
+                    task_data[4] = " " + team_name + "\t"
+
+        # 去除一些换行符
+        link_url = link_url.replace("\r", "").replace("\t", "")
+
+        # 解析url最后一节名字
+        link_title = link_url.split('/')[-1]
+        # 拼接数据
+        temp_text += f"{team_name}({status})[{link_title}]({link_url})\t"
+        task_data[3] += temp_text
+        temp_text2 = "|".join(task_data)
+
+        # 替换源文件
+        task_out = all_text.replace(task_line, temp_text2)
+
+        return task_out
+    except Exception as e:
+        print(e)
         return None
-
-    # 重复校验
-    duplicate_verification = f'{team_name}({status}'
-    if duplicate_verification in task_data[3]:
-        return "repeat"
-
-    # 去除尾部空格
-    task_data[3] = task_data[3].rstrip()
-    # 要插入的队伍
-    temp_text = ""
-    # 判断是否为空行
-    if '(' in task_data[3]:
-        temp_text += '</br>'
-
-    if team_name not in task_data[4]:
-        # 查询 pull 状态
-        if get_pull_status(link_url, token):
-            task_data[4] = task_data[4].replace("\r", "").replace("\t", "").replace(" ", "")
-            # 处理多队伍完成任务
-            if len(task_data[4]) != 0:
-                task_data[4] += "&"+team_name
-            else:
-                task_data[4] = " " + team_name + "\t"
-
-    # 去除一些换行符
-    link_url = link_url.replace("\r", "").replace("\t", "")
-
-    # 解析url最后一节名字
-    link_title = link_url.split('/')[-1]
-    # 拼接数据
-    temp_text += f"{team_name}({status})[{link_title}]({link_url})\t"
-    task_data[3] += temp_text
-    temp_text2 = "|".join(task_data)
-
-    # 替换源文件
-    task_out = all_text.replace(task_line, temp_text2)
-
-    return task_out
