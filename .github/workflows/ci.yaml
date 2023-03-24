@@ -20,7 +20,7 @@ jobs:
           python-version: '3.10'
       - name: Install requirements
         run: |
-          pip install requirements.txt
+          pip install -r requirements.txt
       - name: Set ENV and Run analysis
         env:
           URL: ${{ secrets.URL }}
