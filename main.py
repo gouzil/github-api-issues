@@ -39,11 +39,11 @@ def init():
             Task_Publisher = eval(Task_Publisher_tmp)
     if len(Special) == 0:
         Special_tmp = os.environ.get("SPECIAL")
-        if Task_Publisher_tmp != None:
+        if Special_tmp != None:
             Special = eval(Special_tmp)
 
 
-if '__main__' == __name__:
+if __name__ == "__main__":
     try:
         init()
         if url == '' or token == '':
