@@ -36,8 +36,8 @@ jobs:
           cp all_markdowm/* generate/
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
-        branch: paddlepaddle-issue-test
         with:
+          branch: paddlepaddle-issue-test
           folder: ./generate
-        token:  ${{ secrets.GH_TOKEN }}
-        commit-message: update-time-${{ steps.date.outputs.now }}
+          token:  ${{ secrets.GH_TOKEN }}
+          commit-message: update-time-${{ steps.date.outputs.now }}
