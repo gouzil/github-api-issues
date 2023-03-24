@@ -1,0 +1,42 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  generate:
+    name: generate
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v3
+      - name: Get Date
+        id: date
+        run: echo "now=$(date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_OUTPUT # ${{ steps.date.outputs.now }}
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Install requirements
+        run: |
+          pip install requirements.txt
+      - name: Set ENV and Run analysis
+        env:
+          URL: ${{ secrets.URL }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          TASK_PUBLISHER: ${{ secrets.TASK_PUBLISHER }}
+          SPECIAL: ${{ secrets.SPECIAL }}
+        run: |
+          python main.py
+      - name: Copy file
+        run: |
+          mkdir generate
+          cp -r backup/ generate/
+          cp all_markdowm/* generate/
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        branch: paddlepaddle-issue-test
+        with: generate
+        token:  ${{ secrets.GH_TOKEN }}
+        commit-message: update-time-${{ steps.date.outputs.now }}

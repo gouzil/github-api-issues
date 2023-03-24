@@ -6,7 +6,6 @@ from utils.file_utils import save_file
 from utils.get_data import get_task
 
 
-# todo 加个选项是否备份，复用(或者改写)
 # 备份文件
 def backup_announcement(issues_json, Task_Publisher):
     today_file = str(datetime.date.today()) + '.md'
