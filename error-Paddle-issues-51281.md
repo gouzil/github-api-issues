@@ -145,3 +145,9 @@ https://github.com/PaddlePaddle/PaddleNLP/pull/4912
 【链接】：https://github.com/PaddlePaddle/community/pull/413
 [最后更新时间]2023-03-25T10:00:18Z
 --------------------
+【队名】：thunder95
+【序号】：44
+【状态】：报名&&提交提案
+【链接】：https://github.com/PaddlePaddle/community/pull/480
+[最后更新时间]2023-03-26T12:21:12Z
+--------------------
