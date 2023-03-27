@@ -119,7 +119,7 @@ def insert_markdowm(team_name, order_number, status, link_url, token, all_text):
             return "repeat"
 
         # 去除尾部空格
-        task_data[3] = task_data[3].rstrip().replace('\n', '')
+        task_data[3] = task_data[3].rstrip()
         # 要插入的队伍
         temp_text = ""
         # 判断是否为空行
@@ -137,7 +137,7 @@ def insert_markdowm(team_name, order_number, status, link_url, token, all_text):
                     task_data[4] = " " + team_name + "\t"
 
         # 去除一些换行符
-        link_url = link_url.replace("\r", "").replace("\t", "")
+        link_url = link_url.replace("\r", "").replace("\t", "").replace('\n', '')
 
         # 解析url最后一节名字
         link_title = link_url.split('/')[-1]
