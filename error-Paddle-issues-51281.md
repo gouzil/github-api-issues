@@ -200,3 +200,9 @@ https://github.com/PaddlePaddle/PaddleNLP/pull/4912
 【链接】：[https://github.com/JiaWei-Weng/PaddleDetection](https://github.com/JiaWei-Weng/PaddleDetection)
 [最后更新时间]2023-03-30T11:22:38Z
 --------------------
+【队名】：钱宝冲冲冲
+【序号】：32
+【状态】：提交作品
+【PR链接】：[Paddle#52254](https://github.com/PaddlePaddle/Paddle/pull/52254)
+[最后更新时间]2023-03-31T03:43:08Z
+--------------------
