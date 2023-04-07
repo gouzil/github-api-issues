@@ -227,3 +227,9 @@ https://github.com/PaddlePaddle/PaddleNLP/pull/4912
 【链接】：https://github.com/PaddlePaddle/Paddle/pull/52543
 [最后更新时间]2023-04-06T00:22:36Z
 --------------------
+【队名】：等等天黑
+【序号】：100
+【状态】：提交作品
+【链接】：https://github.com/PaddlePaddle/PaddleNLP/pull/5560,https://github.com/PaddlePaddle/PaddleNLP/pull/5517,https://github.com/PaddlePaddle/PaddleNLP/pull/5481
+[最后更新时间]2023-04-07T08:19:28Z
+--------------------
