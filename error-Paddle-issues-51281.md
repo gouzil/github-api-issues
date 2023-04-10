@@ -233,3 +233,15 @@ https://github.com/PaddlePaddle/PaddleNLP/pull/4912
 【链接】：https://github.com/PaddlePaddle/PaddleNLP/pull/5560,https://github.com/PaddlePaddle/PaddleNLP/pull/5517,https://github.com/PaddlePaddle/PaddleNLP/pull/5481
 [最后更新时间]2023-04-07T08:19:28Z
 --------------------
+【队名】：钱宝冲冲冲
+【序号】：32
+【状态】：提交作品
+【PR链接】：[Paddle#52700](https://github.com/PaddlePaddle/Paddle/pull/52700)
+[最后更新时间]2023-04-10T01:11:34Z
+--------------------
+【队名】：我有顶会了吗
+【序号】：104
+【状态】：提交作品
+【PR链接】：https://github.com/PaddlePaddle/PaddleNLP/pull/5587
+[最后更新时间]2023-04-10T08:05:29Z
+--------------------
