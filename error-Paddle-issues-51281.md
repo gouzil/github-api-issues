@@ -91,6 +91,15 @@ https://github.com/PaddlePaddle/PaddleNLP/pull/4912
 
 [最后更新时间]2023-03-14T14:36:43Z
 --------------------
+【队名】：姚玉
+
+【序号】：164
+
+【状态】：报名
+
+【链接】：https://github.com/yao-yu1999/models
+[最后更新时间]2023-03-16T02:38:35Z
+--------------------
 【队名】：摸鱼
 【序号】：53
 【状态】：报名&提交作品
@@ -244,4 +253,10 @@ https://github.com/PaddlePaddle/PaddleNLP/pull/4912
 【状态】：提交作品
 【PR链接】：https://github.com/PaddlePaddle/PaddleNLP/pull/5587
 [最后更新时间]2023-04-10T08:05:29Z
+--------------------
+【队名】：megemini
+【序号】：102
+【状态】：报名&提交代码
+【PR链接】：[#5595](https://github.com/PaddlePaddle/PaddleNLP/pull/5595)
+[最后更新时间]2023-04-10T12:16:44Z
 --------------------
