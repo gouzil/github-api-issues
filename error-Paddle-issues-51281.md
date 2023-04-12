@@ -260,3 +260,11 @@ https://github.com/PaddlePaddle/PaddleNLP/pull/4912
 【PR链接】：[#5595](https://github.com/PaddlePaddle/PaddleNLP/pull/5595)
 [最后更新时间]2023-04-10T12:16:44Z
 --------------------
+【队名】：megemini
+【序号】：102
+【状态】：报名&提交代码
+【PR链接】：
+- [#5595](https://github.com/PaddlePaddle/PaddleNLP/pull/5595)
+- [#5626](https://github.com/PaddlePaddle/PaddleNLP/pull/5626)
+[最后更新时间]2023-04-12T06:54:23Z
+--------------------
