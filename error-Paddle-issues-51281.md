@@ -1,3 +1,9 @@
+【队名】：thunder95
+【序号】：141
+【状态】：报名
+【链接】：https://github.com/thunder95/PaddleClas
+[最后更新时间]2023-03-07T15:21:26Z
+--------------------
 【队名】：等等天黑
 
 【序号】：98
@@ -147,6 +153,12 @@ https://github.com/PaddlePaddle/PaddleNLP/pull/4912
 
 【PR链接】：https://github.com/openvinotoolkit/openvino_notebooks/issues/932
 [最后更新时间]2023-03-20T22:20:15Z
+--------------------
+【队名】：不想做咸鱼的juju
+【序号】：142
+【状态】：报名
+【链接】：本来是应该填fork的链接，但是似乎原任务并没有提供相关repo的链接，因此暂无。
+[最后更新时间]2023-03-22T03:08:03Z
 --------------------
 【队名】：Rayman的团队
 【序号】：44
