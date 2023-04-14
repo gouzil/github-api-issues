@@ -118,6 +118,12 @@ https://github.com/PaddlePaddle/PaddleNLP/pull/4912
 【PR链接】：https://github.com/PaddlePaddle/Paddle/pull/51784
 [最后更新时间]2023-03-17T06:03:49Z
 --------------------
+【队名】：LPC
+【序号】：80
+【状态】：报名
+【链接】：https://github.com/Young-Flash/Paddle
+[最后更新时间]2023-03-17T01:49:50Z
+--------------------
 【队名】：约克逊是个郡
 【序号】：52
 【状态】：报名&提交作品
@@ -279,4 +285,54 @@ https://github.com/PaddlePaddle/PaddleNLP/pull/4912
 - [#5595](https://github.com/PaddlePaddle/PaddleNLP/pull/5595)
 - [#5626](https://github.com/PaddlePaddle/PaddleNLP/pull/5626)
 [最后更新时间]2023-04-12T06:54:23Z
+--------------------
+【队名】：megemini
+【序号】：102
+【状态】：报名&提交代码
+【PR链接】：
+- [#5595](https://github.com/PaddlePaddle/PaddleNLP/pull/5595)
+- [#5626](https://github.com/PaddlePaddle/PaddleNLP/pull/5626)
+- [#5658](https://github.com/PaddlePaddle/PaddleNLP/pull/5658)
+[最后更新时间]2023-04-13T10:33:18Z
+--------------------
+【队名】：摸鱼
+【序号】：58
+【状态】：提交作品
+【链接】：https://github.com/PaddlePaddle/Paddle/pull/52388
+https://github.com/PaddlePaddle/Paddle/pull/52668
+https://github.com/PaddlePaddle/Paddle/pull/51615
+https://github.com/PaddlePaddle/Paddle/pull/51197
+https://github.com/PaddlePaddle/Paddle/pull/51275
+https://github.com/PaddlePaddle/Paddle/pull/51300 
+
+[最后更新时间]2023-04-14T08:09:23Z
+--------------------
+【队名】：cnrk
+【序号】：237
+【状态】：提交作品
+https://aistudio.baidu.com/aistudio/projectdetail/5958649
+[最后更新时间]2023-04-14T06:09:45Z
+--------------------
+【队名】：megemini
+【序号】：102
+【状态】：报名&提交代码
+【PR链接】：
+- [#5595](https://github.com/PaddlePaddle/PaddleNLP/pull/5595)
+- [#5626](https://github.com/PaddlePaddle/PaddleNLP/pull/5626)
+- [#5658](https://github.com/PaddlePaddle/PaddleNLP/pull/5658)
+- [#5668](https://github.com/PaddlePaddle/PaddleNLP/pull/5668)
+[最后更新时间]2023-04-14T06:58:39Z
+--------------------
+【队名】：megemini
+【序号】：102
+【状态】：报名&提交代码
+【PR链接】：
+- [#5595](https://github.com/PaddlePaddle/PaddleNLP/pull/5595)
+- [#5626](https://github.com/PaddlePaddle/PaddleNLP/pull/5626)
+- [#5658](https://github.com/PaddlePaddle/PaddleNLP/pull/5658)
+- [#5668](https://github.com/PaddlePaddle/PaddleNLP/pull/5668)
+- [#5672](https://github.com/PaddlePaddle/PaddleNLP/pull/5672)
+
+至此，5个模型的PR均已提交，请评审，谢谢！
+[最后更新时间]2023-04-14T08:01:56Z
 --------------------
