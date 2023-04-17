@@ -336,3 +336,9 @@ https://aistudio.baidu.com/aistudio/projectdetail/5958649
 至此，5个模型的PR均已提交，请评审，谢谢！
 [最后更新时间]2023-04-14T08:01:56Z
 --------------------
+【队名】：皇族永不言弃
+【序号】：34
+【状态】：报名&提交提案
+【PR链接】：https://github.com/PaddlePaddle/community/pull/513
+[最后更新时间]2023-04-16T14:26:16Z
+--------------------
