@@ -342,3 +342,17 @@ https://aistudio.baidu.com/aistudio/projectdetail/5958649
 【PR链接】：https://github.com/PaddlePaddle/community/pull/513
 [最后更新时间]2023-04-16T14:26:16Z
 --------------------
+【队名】：megemini
+【序号】：12
+【状态】：报名&提交代码
+【PR链接】：[#52999](https://github.com/PaddlePaddle/Paddle/pull/52999)
+
+
+[最后更新时间]2023-04-18T04:26:52Z
+--------------------
+【队名】：co63oc
+【序号】：60
+【状态】：完成
+【链接】：https://github.com/PaddlePaddle/Paddle/pull/52666 https://github.com/PaddlePaddle/Paddle/pull/52667 https://github.com/PaddlePaddle/Paddle/pull/52683
+[最后更新时间]2023-04-18T09:20:02Z
+--------------------
