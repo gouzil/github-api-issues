@@ -15,6 +15,12 @@ https://github.com/PaddlePaddle/PaddleNLP/pull/4989
 https://github.com/PaddlePaddle/PaddleNLP/pull/4912
 [最后更新时间]2023-03-08T07:42:00Z
 --------------------
+【队名】：durarara!!
+【序号】：108
+【状态】：报名
+【链接】：https://github.com/DURA18/AudioLDM
+[最后更新时间]2023-03-08T10:29:43Z
+--------------------
 【队名】：事不过三
 【序号】：67part2
 【状态】：提交作品
@@ -29,6 +35,15 @@ https://github.com/PaddlePaddle/PaddleNLP/pull/4912
 
 【链接】：https://github.com/apache/tvm/pull/14172  https://github.com/PaddlePaddle/community/pull/404
 [最后更新时间]2023-03-10T01:58:35Z
+--------------------
+【队名】：等等天黑
+
+【序号】：108
+
+【状态】：报名
+
+【链接】：https://github.com/ZwhElliott/PaddleNLP
+[最后更新时间]2023-03-10T06:25:27Z
 --------------------
 【队名】：不知道名字队
 【序号】：203
@@ -96,6 +111,18 @@ https://github.com/PaddlePaddle/PaddleNLP/pull/4912
 3. https://github.com/PaddlePaddle/Paddle/pull/51662
 
 [最后更新时间]2023-03-14T14:36:43Z
+--------------------
+【队名】：duoluoluo
+【序号】：66
+【状态】：报名
+【链接】：https://github.com/hch-xmu/Paddle
+[最后更新时间]2023-03-15T07:43:02Z
+--------------------
+【队名】：duoluoluo
+【序号】：65
+【状态】：报名
+【链接】：https://github.com/hch-xmu/Paddle
+[最后更新时间]2023-03-15T07:43:20Z
 --------------------
 【队名】：姚玉
 
