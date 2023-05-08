@@ -69,15 +69,6 @@ https://github.com/PaddlePaddle/PaddleNLP/pull/4912
 【链接】：https://github.com/ZwhElliott/PaddleNLP
 [最后更新时间]2023-03-10T06:25:27Z
 --------------------
-【队名】：图灵不图灵
-
-【序号】：115
-
-【状态】：报名
-
-【链接】：https://github.com/xxxqhloveu/PaddleOCR
-[最后更新时间]2023-03-10T06:31:55Z
---------------------
 【队名】：不知道名字队
 【序号】：203
 【状态】：报名
@@ -568,12 +559,6 @@ https://aistudio.baidu.com/aistudio/projectdetail/5958649
 【状态】：完成
 【链接】：https://github.com/PaddlePaddle/Paddle/pull/52666 https://github.com/PaddlePaddle/Paddle/pull/52667 https://github.com/PaddlePaddle/Paddle/pull/52683
 [最后更新时间]2023-04-18T09:20:02Z
---------------------
-【队名】：图灵不图灵
-【序号】：115
-【状态】：提交作品
-【链接】：https://github.com/PaddlePaddle/PaddleOCR/pull/9823
-[最后更新时间]2023-04-25T16:22:39Z
 --------------------
 【队名】：KeyK
 【序号】：175
