@@ -578,3 +578,12 @@ https://aistudio.baidu.com/aistudio/projectdetail/5958649
 【链接】：https://github.com/PaddlePaddle/PaddleSpeech/pull/3088
 [最后更新时间]2023-05-05T06:06:50Z
 --------------------
+【队名】：gyt
+
+【序号】：151
+
+【状态】：提交作品
+
+【链接】：[https://github.com/PaddlePaddle/PaddleRS/pull/147](https://github.com/PaddlePaddle/PaddleRS/pull/147)
+[最后更新时间]2023-05-10T07:58:41Z
+--------------------
